@@ -1,0 +1,80 @@
+p {
+    margin: 0; /* Ensure no extra spacing around the paragraph */
+    color: #353b3c; /* Text color */
+    line-height: 1.6; /* Improves readability */
+    font-size: small;
+    font-weight: bold;
+}
+h3
+{
+    color: #000000;
+    margin: 10PX 0;
+    text-align: center;
+    font-size: large;
+}
+nav{
+    display: flex;
+    padding: 5px 130px;
+}
+.logo
+{
+    width: 100px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.button
+{
+    margin-top: 50px;
+}
+button 
+{
+    cursor: pointer;
+    background-color: #b3b1b4;
+    text-decoration-color: #1f0329;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    left: 50%;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: small;
+    font-weight: bold;
+}
+footer
+{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    border: 0.15rem solid #999999;
+    background-color: #000000;
+}
+.info
+{
+    height: 550px;
+    width: 90%;
+    background-color: #000000;
+    color: #999999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul
+{
+    margin-top: 20px;
+}
+ul p
+{
+    font-size: 0.7rem;
+    color: #999999;
+}
+ul i
+{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #999999;
+}

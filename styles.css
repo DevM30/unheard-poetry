@@ -1,0 +1,163 @@
+h3
+{
+    top: 0%;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: #ffffff;
+    text-align: center;
+}
+.text1
+{
+    border-right: 0px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    animation: 
+        typing 5s ,
+        step-end infinite alternate;
+}
+.text2
+{
+    border-right: 0px solid;
+    width: 100%;
+    top: 50%;
+    left: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: x-small;
+    animation: 
+        typing 5s ,
+        step-end infinite alternate;
+}
+.text3
+{
+    border-right: 0px solid;
+    width: 100%;
+    top: 50%;
+    left: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: smaller;
+    animation: 
+        typing 5s ,
+        step-end infinite alternate;
+}
+.text4
+{
+    border-right: 0px solid;
+    width: 100%;
+    top: 50%;
+    left: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: x-small;
+    animation: 
+        typing 5s ,
+        step-end infinite alternate;
+}
+@keyframes typing
+{
+    from { width: 0}
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-bottom: 2px ;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    animation: reveal 8s linear infinite ;
+}
+.container p
+{
+    color: #ffffff;;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+@keyframes reveal
+{
+    0%
+    {
+        width: 0px;
+        height: 0px;
+    }
+
+    30%
+    {
+        width: 500px;
+        height: 0px;
+    }
+    60%
+    {
+        width: 500px;
+        height: 80px;
+    }
+}
+.animation
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(img1.jpg);
+    background-size: initial;
+    animation: infinite 35s linear infinite;
+}
+@keyframes infinite
+{
+    0%
+    {
+        background-position: 50% 0;
+    }
+    100%
+    {
+        background-position: 50% -1000px;
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+}
+button 
+{
+    cursor: pointer;
+    background-color: #b3b1b4;
+    text-decoration-color: #23022E;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    padding: 10px 20px;
+    font-size: small;
+    font-weight: bold;
+}
